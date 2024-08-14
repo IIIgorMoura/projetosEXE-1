@@ -70,7 +70,7 @@ a {
 }
 
 /* effects */
-.headerOpt:hover {
+#headerOpt:hover {
     transition: ease-in-out 300ms;
     color: #40B4F5;
 }
@@ -362,7 +362,7 @@ main {
     margin-bottom: 50px;
 }
 
-.newsTitleMargin {
+#newsTitleMargin {
     margin-bottom: 15px;
     text-transform: uppercase;
     font-family: 'lora';
