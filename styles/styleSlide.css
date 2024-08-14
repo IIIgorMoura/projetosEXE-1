@@ -29,7 +29,7 @@
 }
 
 #ourArt .tranding-slider {
-  height: 0rem;
+  height: 30rem;
   padding: 2rem 0;
   position: relative;
 }
@@ -50,7 +50,7 @@
 
 .tranding-slide .tranding-slide-img img {
   width: 37rem;
-  height: 20rem;
+  height: 22rem;
   border-radius: 2rem;
   object-fit: cover;
 }
