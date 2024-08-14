@@ -38,10 +38,6 @@ function Escolher(idioma) {
             document.getElementById('ourArtTitle').childNodes[0].nodeValue = ourArtTitle;
             document.getElementById('DourArtTitle').innerText = texto.DourArtTitle;
 
-            let ourCoursesTitle = texto.ourCoursesTitle.split("{span}")[0];
-            document.getElementById('ourCoursesTitle').childNodes[0].nodeValue = ourCoursesTitle;
-            document.getElementById('DourCoursesTitle').innerText = texto.DourCoursesTitle;
-
             let nextEventsTitle = texto.nextEventsTitle.split("{span}")[0];
             document.getElementById('nextEventsTitle').childNodes[0].nodeValue = nextEventsTitle;
             document.getElementById('DnextEventsTitle').innerText = texto.DnextEventsTitle;

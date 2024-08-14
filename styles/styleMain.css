@@ -125,8 +125,7 @@ button {
     transition: 300ms ease-in-out;
 }
 button:hover {
-    transform: scale(1.05);
-    border-color: #40B4F5;
+    border-color: var(--corDestaqueAzul);
 }
 
 label {
