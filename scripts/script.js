@@ -1,4 +1,5 @@
-var TrandingSlider = new Swiper('.tranding-slider', {
+document.addEventListener('DOMContentLoaded', function () {
+  var TrandingSlider = new Swiper('.tranding-slider', {
     effect: 'coverflow',
     grabCursor: true,
     centeredSlides: true,
@@ -19,3 +20,4 @@ var TrandingSlider = new Swiper('.tranding-slider', {
       prevEl: '.swiper-button-prev',
     }
   });
+});

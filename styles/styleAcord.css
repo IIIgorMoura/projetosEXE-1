@@ -79,10 +79,15 @@
     font-weight: bold; /* Deixa o texto em negrito */
     padding-left: 0; /* Remove o espaço para o marcador personalizado */
     margin-bottom: 30px; /* Aumenta o espaçamento inferior */
+    font-size: 1.3rem;
   }
+#calendarTxt {
+  font-size: 0.7em;
+}
   
   .accordion-item-body-content ul li#titulo::before {
     content: none; /* Remove a bolinha */
   }
+
   
   

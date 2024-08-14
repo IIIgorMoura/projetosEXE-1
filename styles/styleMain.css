@@ -158,7 +158,7 @@ input {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     /* 2 colunas de igual largura */
-    gap: 10em;
+    gap: 5em;
     /* Espaço entre os itens da grade */
     justify-items: stretch;
     /* Faz com que os itens se estiquem para preencher a coluna */
@@ -191,7 +191,7 @@ header {
     top: 0;
     left: 0;
     width: 100%;
-    transition: transform 0.2s ease-in-out, background-color 0.3s ease-in-out;
+    transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out;
 
 
     z-index: 10;
