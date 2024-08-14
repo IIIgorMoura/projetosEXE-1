@@ -104,6 +104,9 @@ span {
 
     margin: 0px 15px;
 }
+#iconLanguage {
+    margin: 0px 0px 0px 15px;
+}
 
 /* functionalElements */
 button {
@@ -119,6 +122,11 @@ button {
     align-items: center;
     padding: 5px 10px;
     cursor: pointer;
+    transition: 300ms ease-in-out;
+}
+button:hover {
+    transform: scale(1.05);
+    border-color: #40B4F5;
 }
 
 label {
@@ -170,7 +178,11 @@ input {
 }
 
 section {
+    scroll-margin-top: 150px;
     margin-top: 10em;
+}
+#iframeSection {
+    scroll-margin-top: 150px;
 }
 
 header {
@@ -238,6 +250,9 @@ main {
 
     width: 100%;
     height: 100%;
+}
+#landingPageTitle {
+    margin-bottom: 50px;
 }
 
 #aboutUs {
@@ -424,17 +439,121 @@ footer {
 }
 #footerTitles {
     display: flex;
-    width: 100%;
+    width: 80%;
     align-items: center;
 }
 #footerSectionsTitle {
     width: 60%;
 }
-#footerSocialsTitle {
+#footerSocialMediaTitle {
     width: 40%;
 }
 .footerTitles {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: 25px;
+}
+#footerOptions {
+    display: flex;
+    flex-direction: row;
+    margin: var(--marginLateral);
+    margin-top: 15px;
+    width: 80%;
+    justify-content: center;
+    border: 2px solid var(--corBg2);
+    border-left: none;
+    border-right: none;
+    padding: 25px 0px;
+}
+
+#footerSections {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 colunas de largura igual */
+    grid-template-rows: repeat(2, auto);  /* 2 linhas automáticas */
+    width: 50%; /* Largura de 60% */
+    gap: 50px; /* Espaço entre os itens */
+}
+
+#footerDivision {
+    display: flex;
+    justify-content: center;
+    width: 10%;
+}
+#footerLine {
+    display: flex;
+    width: 2px;
+    height: 100%;
+    background-color: #414141;
+}
+
+#footerSocialMedia {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 colunas de largura igual */
+    grid-template-rows: repeat(2, auto);   /* 2 linhas automáticas */
+    width: 40%; /* Largura de 40% */
+    gap: 25px; /* Espaço entre os itens */
+}
+
+.socialMedia {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+} 
+ .social {
+    transition: ease-in-out 300ms;
+    margin-right: 15px;
+    width: 50px;
+    height: 50px;
+ }
+ .socialTxt {
+    color: #414141;
+    transition: ease-in-out 300ms;
+    font-size: 1.1em;
+ }
+
+#imgInstagram {
+    background-image: url('../assets/icons/instaGray.png');
+}
+#socialInsta:hover #imgInstagram {
+    background-image: url('../assets/icons/insta.png');
+}
+#socialInsta:hover #socialInstaTxt {
+    color: var(--corTxt);
+}
+
+
+
+#imgFacebook {
+    background-image: url('../assets/icons/fbGray.png');
+}
+#socialFB:hover #imgFacebook {
+    background-image: url('../assets/icons/fb.png');
+}
+#socialFB:hover #socialFBTxt {
+    color: var(--corTxt);
+}
+
+
+
+#imgYoutube {
+    background-image: url('../assets/icons/ytGray.png');
+}
+#socialYT:hover #imgYoutube {
+    background-image: url('../assets/icons/yt.png');
+}
+#socialYT:hover #socialYTTxt {
+    color: var(--corTxt);
+}
+
+
+
+#imgX {
+    background-image: url('../assets/icons/xGray.png');
+}
+#socialX:hover #imgX {
+    background-image: url('../assets/icons/x.png');
+}
+#socialX:hover #socialXTxt {
+    color: var(--corTxt);
 }
