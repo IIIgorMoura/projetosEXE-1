@@ -63,7 +63,7 @@ function Escolher(idioma) {
             document.getElementById('footerTitle').childNodes[2].nodeValue = footerTitleAfterSpan;
             
 
-            for (let i = 0; i < 54; i++) {
+            for (let i = 0; i < 56; i++) {
                 document.querySelector(`.text${i}`).textContent = texto[`text${i}`]
             }
 
