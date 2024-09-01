@@ -157,17 +157,11 @@ input {
 #formBase {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    /* 2 colunas de igual largura */
     gap: 5em;
-    /* Espaço entre os itens da grade */
     justify-items: stretch;
-    /* Faz com que os itens se estiquem para preencher a coluna */
     align-items: center;
-    /* Alinha os itens verticalmente no centro da célula da grade */
     margin: 0 auto;
-    /* Centraliza o formulário horizontalmente */
     max-width: 85%;
-    /* Largura máxima do formulário */
     margin-top: 5em;
 }
 
@@ -181,6 +175,7 @@ section {
     margin-top: 10em;
 }
 #iframeSection {
+    margin-top: 100px;
     scroll-margin-top: 150px;
 }
 
@@ -227,16 +222,11 @@ main {
     display: flex;
     position: relative;
     width: 100%;
-    /* Ocupa toda a largura da página */
     height: 100vh;
     background-image: url('../assets/imgs/bgLandingPage.png');
-    /* Substitua pelo caminho da sua imagem */
     background-size: cover;
-    /* Faz a imagem cobrir toda a área da div */
     background-position: center;
-    /* Centraliza a imagem verticalmente e horizontalmente */
     background-repeat: no-repeat;
-    /* Evita repetição da imagem */
 }
 
 #landingPage {
@@ -395,15 +385,11 @@ main {
     display: flex;
     position: relative;
     width: 100%;
-    /* Ocupa toda a largura da página */
     height: 100vh;
     background-image: url("../assets/imgs/workWithUsBg.png");
     background-size: cover;
-    /* Faz a imagem cobrir toda a área da div */
     background-position: center;
-    /* Centraliza a imagem verticalmente e horizontalmente */
     background-repeat: no-repeat;
-    /* Evita repetição da imagem */
     flex-direction: column;
 
     justify-content: center;
@@ -468,10 +454,10 @@ footer {
 
 #footerSections {
     display: grid;
-    grid-template-columns: repeat(3, 1fr); /* 3 colunas de largura igual */
-    grid-template-rows: repeat(2, auto);  /* 2 linhas automáticas */
-    width: 50%; /* Largura de 60% */
-    gap: 50px; /* Espaço entre os itens */
+    grid-template-columns: repeat(3, 1fr); 
+    grid-template-rows: repeat(2, auto);  
+    width: 50%; 
+    gap: 50px; 
 }
 
 #footerDivision {
@@ -488,10 +474,10 @@ footer {
 
 #footerSocialMedia {
     display: grid;
-    grid-template-columns: repeat(2, 1fr); /* 2 colunas de largura igual */
-    grid-template-rows: repeat(2, auto);   /* 2 linhas automáticas */
-    width: 40%; /* Largura de 40% */
-    gap: 25px; /* Espaço entre os itens */
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, auto); 
+    width: 40%; 
+    gap: 25px; 
 }
 
 .socialMedia {

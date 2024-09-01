@@ -49,35 +49,35 @@
     border-top: 1px solid;
     border-image: linear-gradient(to right, transparent, #34495e, transparent) 1;
     display: flex;
-    flex-direction: column; /* Altera a disposição do conteúdo para lista vertical */
+    flex-direction: column; 
   }
   
   .accordion-item-body-content ul {
-    list-style: none; /* Remove os marcadores padrão da lista */
-    padding-left: 0;  /* Remove o recuo padrão da lista */
-    margin: 0; /* Remove margens externas */
+    list-style: none; 
+    padding-left: 0; 
+    margin: 0; 
   }
   
   .accordion-item-body-content ul li {
-    margin-bottom: 20px; /* Adiciona espaçamento vertical entre os itens da lista */
+    margin-bottom: 20px;
     position: relative;
-    padding-left: 25px; /* Espaço para o marcador personalizado */
+    padding-left: 25px;
   }
   
   .accordion-item-body-content ul li::before {
-    content: "•"; /* Adiciona a bolinha na frente de cada item */
+    content: "•";
     position: absolute;
     left: 0;
     top: 0;
-    color: #ffffff; /* Cor da bolinha */
-    font-size: 4rem; /* Tamanho da bolinha */
+    color: #ffffff;
+    font-size: 4rem;
     line-height: 1.5rem;
   }
   
   .accordion-item-body-content ul li#titulo {
-    font-weight: bold; /* Deixa o texto em negrito */
-    padding-left: 0; /* Remove o espaço para o marcador personalizado */
-    margin-bottom: 30px; /* Aumenta o espaçamento inferior */
+    font-weight: bold; 
+    padding-left: 0; 
+    margin-bottom: 30px;
     font-size: 1.3rem;
   }
 #calendarTxt {
